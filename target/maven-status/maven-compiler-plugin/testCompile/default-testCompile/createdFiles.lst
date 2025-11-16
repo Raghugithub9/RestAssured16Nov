@@ -1,0 +1,12 @@
+oAuth2\oAuthExampleTest.class
+POJOExamples\SerializationExampleTest.class
+APIMethods\POSTExampleTest.class
+APIMethods\PUTExampleTest.class
+Authorizations\bearerTokenExampleTest.class
+APITest\cucumberTest.class
+APITest\GetAPiTest.class
+APITest\getMethodTest.class
+Authorizations\digestAuthExampleTest.class
+Authorizations\basicAuthExampleTest.class
+APITest\getTest.class
+POJOExamples\PojoExampleTest.class

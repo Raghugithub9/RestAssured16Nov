@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.989" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\RestAssured-Project\target\test-classes;C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\RestAssured-Project\target\classes;C:\Users\lenovo\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\lenovo\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\lenovo\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\lenovo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\lenovo\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\lenovo\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\lenovo\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\lenovo\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\lenovo\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\lenovo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\lenovo\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\lenovo\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\lenovo\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire61929079266575154\surefirebooter-20251115070621457_3.jar C:\Users\lenovo\AppData\Local\Temp\surefire61929079266575154 2025-11-15T07-06-20_423-jvmRun1 surefire-20251115070621457_1tmp surefire_0-20251115070621457_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\RestAssured-Project\target\test-classes;C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\RestAssured-Project\target\classes;C:\Users\lenovo\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\lenovo\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\lenovo\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\lenovo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\lenovo\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\lenovo\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\lenovo\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\lenovo\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\lenovo\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\lenovo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\lenovo\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\lenovo\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\lenovo\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\RestAssured-Project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire61929079266575154\surefirebooter-20251115070621457_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="lenovo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\RestAssured-Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\lenovo\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M3/bin;C:\Program Files\Java\jdk-17/bin;C:\Program Files\Java\jdk-17/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\lenovo\Desktop\Trainings\Sessions\Selenium\Tools\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Ant\apache-ant-1.10.13-bin\apache-ant-1.10.13\bin;C:\Gradle\gradle-8.0.2\bin;C:\Program Files\dotnet\;C:\Tomcat\apache-tomcat-8.5.61\apache-tomcat-8.5.61\bin\tomcat-native-2.0.6-win32-src\native\srclib\openssl;C:\Tomcat\apache-tomcat-8.5.61\apache-tomcat-8.5.61\bin\tomcat-native-2.0.6-win32-src\native\srclib\apr;C:\Program Files\openssl\bin;C:\Python27;C:\Python27\scripts;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-17\bin;D:\Allure\allure-2.27.0\allure-2.27.0\bin;C:\Apache24\bin;D:\Trainings\Tools\apache-maven-3.9.8\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\nodejs\;C:\Users\lenovo\AppData\Local\Programs\Python\Python313;C:\Users\lenovo\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\lenovo\AppData\Local\Programs\Python\Launcher\;C:\Users\lenovo\scoop\shims;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin;D:\Trainings\SDET Tools\apache-maven-3.9.8\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.3\bin;;D:\Allure\allure-2.27.0\allure-2.27.0\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1.1\bin;;C:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\lenovo\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testPOSTMethod1" classname="APIMethods.POSTExampleTest" time="8.891"/>
+  <testcase name="testPOSTMethod2" classname="APIMethods.POSTExampleTest" time="0.758">
+    <system-out><![CDATA[POST Method Executed
+]]></system-out>
+  </testcase>
+  <testcase name="testPOSTMethod2" classname="APIMethods.PUTExampleTest" time="0.218"/>
+  <testcase name="testPUTMethod1" classname="APIMethods.PUTExampleTest" time="0.446">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Sat, 15 Nov 2025 01:36:34 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uM5HHpS7pUJPrk22wK9K4OV%2BfJR1nvQl8Rv36E0G4FaM8BOo88Pcfe5lAlZqcvTvZHXbqi802WSRx2T%2FxrcrYhdFZoFbolpkEzd9cLPKQVv3GL8%3D"}]}
+Content-Encoding: gzip
+CF-RAY: 99eb04b68f197ee6-MAA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff8081819782e69e0197e07cd3b52c59",
+    "name": "Apple MacBook SDET-PUT",
+    "updatedAt": "2025-11-15T01:36:34.404+00:00",
+    "data": {
+        "year": 2027,
+        "price": 1234225,
+        "CPU model": "Intel",
+        "Hard disk size": "3 TB"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testAPI" classname="APITest.cucumberTest" time="0.245"/>
+  <testcase name="testAPIwithQueryParam" classname="APITest.cucumberTest" time="0.259"/>
+  <testcase name="getAPIExample" classname="APITest.GetAPiTest" time="0.323">
+    <system-out><![CDATA[200
+keep-alive
+null
+Key is Date     Value is Sat, 15 Nov 2025 01:36:35 GMT
+Key is Content-Type     Value is application/json
+Key is Transfer-Encoding     Value is chunked
+Key is Connection     Value is keep-alive
+Key is Server     Value is cloudflare
+Key is Nel     Value is {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Key is Vary     Value is Origin
+Key is Vary     Value is Access-Control-Request-Method
+Key is Vary     Value is Access-Control-Request-Headers
+Key is cf-cache-status     Value is DYNAMIC
+Key is Report-To     Value is {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Prf5jUj83VEFY0zCJ1Um5LQZ6ZGAIjHTdhS%2F4rESBIAgT6gUI7vW602l2XNuTz4ewS7EcHJX5XqtQD54YnRCMfmuzM8mOt4JqqA9I9TfbygUTvY%3D"}]}
+Key is Content-Encoding     Value is gzip
+Key is CF-RAY     Value is 99eb04bc6bf6ff18-MAA
+Key is alt-svc     Value is h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="GETMethodTesting" classname="APITest.getMethodTest" time="4.263">
+    <system-out><![CDATA[[
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+Year is 2019
+Name is Apple iPhone 12 Pro Max
+Color is Brown
+]]></system-out>
+  </testcase>
+  <testcase name="getTestMethod" classname="APITest.getTest" time="0.342">
+    <system-out><![CDATA[Status Code is 200
+Status Line is HTTP/1.1 200 OK
+io.restassured.internal.RestAssuredResponseImpl@7a9ceddf
+284
+application/json
+Key is Date     Value is Sat, 15 Nov 2025 01:36:40 GMT
+Key is Content-Type     Value is application/json
+Key is Transfer-Encoding     Value is chunked
+Key is Connection     Value is keep-alive
+Key is Server     Value is cloudflare
+Key is Nel     Value is {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Key is Vary     Value is Origin
+Key is Vary     Value is Access-Control-Request-Method
+Key is Vary     Value is Access-Control-Request-Headers
+Key is cf-cache-status     Value is DYNAMIC
+Key is Report-To     Value is {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=T50ZTU1yP4TUhcPSegpH2rNv%2BGNijfWnpPKHrHu1sKszZnDjsmdncR%2FkwTwx7eXx72sL%2F%2BOQSbBSw9KG6l783%2BRfu25v%2FANr2ydmKUnv1dAsXPw%3D"}]}
+Key is Content-Encoding     Value is gzip
+Key is CF-RAY     Value is 99eb04d94b747f28-MAA
+Key is alt-svc     Value is h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="NonPreEmptiveExample" classname="Authorizations.basicAuthExampleTest" time="2.322">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+io.restassured.internal.RestAssuredResponseImpl@23c767e6
+]]></system-out>
+  </testcase>
+  <testcase name="preEmptiveExample" classname="Authorizations.basicAuthExampleTest" time="2.856">
+    <system-out><![CDATA[{
+    "authenticated": true,
+    "user": "raghu"
+}
+200
+]]></system-out>
+  </testcase>
+  <testcase name="bearerTokenAuthTest" classname="Authorizations.bearerTokenExampleTest" time="0.911">
+    <system-out><![CDATA[{
+    "error": "invalid_token",
+    "error_description": "Access Token not found in cache"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="digestAuthTest" classname="Authorizations.digestAuthExampleTest" time="1.347">
+    <system-out><![CDATA[{
+    "authenticated": true,
+    "user": "sdet"
+}
+Digest method executed
+]]></system-out>
+  </testcase>
+  <testcase name="generateToken" classname="oAuth2.oAuthExampleTest" time="1.254">
+    <system-out><![CDATA[{
+    "scope": "https://uri.paypal.com/services/customer/partner-referrals/readwrite https://uri.paypal.com/services/payments/partnerfee https://uri.paypal.com/services/invoicing https://uri.paypal.com/services/payments/futurepayments https://uri.paypal.com/services/vault/payment-tokens/read https://uri.paypal.com/services/disputes/read-buyer https://uri.paypal.com/services/payments/realtimepayment https://uri.paypal.com/services/customer/onboarding/user https://api.paypal.com/v1/vault/credit-card https://api.paypal.com/v1/payments/.* https://uri.paypal.com/services/payments/referenced-payouts-items/readwrite https://uri.paypal.com/services/reporting/search/read https://uri.paypal.com/services/customer/partner https://uri.paypal.com/services/vault/payment-tokens/readwrite https://uri.paypal.com/services/customer/merchant-integrations/read https://uri.paypal.com/services/applications/webhooks https://uri.paypal.com/services/disputes/update-seller https://uri.paypal.com/services/payments/payment/authcapture openid Braintree:Vault https://uri.paypal.com/services/disputes/read-seller https://uri.paypal.com/services/payments/refund https://uri.paypal.com/services/risk/raas/transaction-context https://uri.paypal.com/services/partners/merchant-accounts/readwrite https://uri.paypal.com/services/identity/grantdelegation https://uri.paypal.com/services/customer/onboarding/account https://uri.paypal.com/payments/payouts https://uri.paypal.com/services/customer/onboarding/sessions https://api.paypal.com/v1/vault/credit-card/.* https://uri.paypal.com/services/subscriptions",
+    "access_token": "A21AAJ9tVLOssZEskNShP9lJV-018WU6k5PmC4Fy_C40jiCX5oCYH6UGxtb9d0lOfdIuFEDkdjkIMh5jlze6HXabk-9IfQpfg",
+    "token_type": "Bearer",
+    "app_id": "APP-80W284485P519543T",
+    "expires_in": 31554,
+    "nonce": "2025-11-15T01:22:42ZrQYyzLkp3T5HbMS1VKnqa4WYAaWMYlRzMRL0Tk9l1VA"
+}
+A21AAJ9tVLOssZEskNShP9lJV-018WU6k5PmC4Fy_C40jiCX5oCYH6UGxtb9d0lOfdIuFEDkdjkIMh5jlze6HXabk-9IfQpfg
+]]></system-out>
+  </testcase>
+  <testcase name="getInvoice" classname="oAuth2.oAuthExampleTest" time="1.125">
+    <system-out><![CDATA[{
+    "total_count": 0,
+    "invoices": [
+        
+    ],
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://api.sandbox.paypal.com/v1/invoicing/invoices?page=2&page_size=4&total_count_required=true",
+            "method": "GET"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deSerializationTest" classname="POJOExamples.SerializationExampleTest" time="1.209">
+    <system-out><![CDATA[Java Object to JSON
+{
+  "name" : "SimpliLearn",
+  "job" : "Trainings"
+}
+*****************************
+JSON String to Java Object
+Name is SimpliLearn
+Job is Trainings
+]]></system-out>
+  </testcase>
+  <testcase name="serializationTest" classname="POJOExamples.SerializationExampleTest" time="0.005">
+    <system-out><![CDATA[{
+  "name" : "SimpliLearn",
+  "job" : "Trainings"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
